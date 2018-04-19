@@ -5,12 +5,12 @@ class Accounts extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('corporate/login');
+		$this->load->view('dashboard/login');
 	}
 
 	public function register()
 	{
-		$this->load->view('corporate/register');
+		$this->load->view('dashboard/register');
 	}
 
 }
