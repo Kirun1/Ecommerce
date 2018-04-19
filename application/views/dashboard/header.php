@@ -132,22 +132,14 @@
                                     <a href="javascript:;" data-app="notes-app" data-status="active"><i class="icon-edit"></i>Notes</a>
                                 </div>
                                 <div class="col-xs-4">
-                                    <a href="javascript:;" data-app="todo-app" data-status="active"><i class="icon-check"></i>Todo List</a>
+                                    <a href="javascript:;" data-app="calendar-widget2" data-status="active"><i class="icon-calendar"></i>Calendar</a>
                                 </div>
                                 <div class="col-xs-4">
                                     <a href="javascript:;" data-app="calc" data-status="inactive"><i class="fa fa-calculator"></i>Calculator</a>
                                 </div>
                             </div>
                             <div class="row stacked">
-                                <div class="col-xs-4">
-                                    <a href="javascript:;" data-app="weather-widget" data-status="active"><i class="icon-cloud-3"></i>Weather</a>
-                                </div>
-                                <div class="col-xs-4">
-                                    <a href="javascript:;" data-app="calendar-widget2" data-status="active"><i class="icon-calendar"></i>Calendar</a>
-                                </div>
-                                <div class="col-xs-4">
-                                    <a href="javascript:;" data-app="stock-app" data-status="inactive"><i class="icon-chart-line"></i>Stocks</a>
-                                </div>
+                               <!-- type next row -->
                             </div>
                             <div class="clearfix"></div>
                         </div>
@@ -155,89 +147,7 @@
                     
                 </ul>
                 <ul class="nav navbar-nav navbar-right top-navbar">
-                   <!--  <li class="dropdown iconify hide-phone">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i><span class="label label-danger absolute">4</span></a>
-                        <ul class="dropdown-menu dropdown-message">
-                            <li class="dropdown-header notif-header"><i class="icon-bell-2"></i> New Notifications<a class="pull-right" href="#"><i class="fa fa-cog"></i></a></li>
-                            <li class="unread">
-                                <a href="#">
-                                    <p><strong>John Doe</strong> Uploaded a photo <strong>&#34;DSC000254.jpg&#34;</strong>
-                                        <br /><i>2 minutes ago</i>
-                                    </p>
-                                </a>
-                            </li>
-                            <li class="unread">
-                                <a href="#">
-                                    <p><strong>John Doe</strong> Created an photo album  <strong>&#34;Fappening&#34;</strong>
-                                        <br /><i>8 minutes ago</i>
-                                    </p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <p><strong>John Malkovich</strong> Added 3 products
-                                        <br /><i>3 hours ago</i>
-                                    </p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <p><strong>Sonata Arctica</strong> Send you a message <strong>&#34;Lorem ipsum dolor...&#34;</strong>
-                                        <br /><i>12 hours ago</i>
-                                    </p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <p><strong>Johnny Depp</strong> Updated his avatar
-                                        <br /><i>Yesterday</i>
-                                    </p>
-                                </a>
-                            </li>
-                            <li class="dropdown-footer">
-                                <div class="btn-group btn-group-justified">
-                                    <div class="btn-group">
-                                        <a href="#" class="btn btn-sm btn-primary"><i class="icon-ccw-1"></i> Refresh</a>
-                                    </div>
-                                    <div class="btn-group">
-                                        <a href="#" class="btn btn-sm btn-danger"><i class="icon-trash-3"></i> Clear All</a>
-                                    </div>
-                                    <div class="btn-group">
-                                        <a href="#" class="btn btn-sm btn-success">See All <i class="icon-right-open-2"></i></a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </li> -->
-                    <!-- <li class="dropdown iconify hide-phone">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i><span class="label label-danger absolute">3</span></a>
-                        <ul class="dropdown-menu dropdown-message">
-                            <li class="dropdown-header notif-header"><i class="icon-mail-2"></i> New Messages</li>
-                            <li class="unread">
-                                <a href="#" class="clearfix">
-                                    <img src="images/users/chat/2.jpg" class="xs-avatar ava-dropdown" alt="Avatar">
-                                    <strong>John Doe</strong><i class="pull-right msg-time">5 minutes ago</i><br />
-                                    <p>Duis autem vel eum iriure dolor in hendrerit ...</p>
-                                </a>
-                            </li>
-                            <li class="unread">
-                                <a href="#" class="clearfix">
-                                    <img src="images/users/chat/1.jpg" class="xs-avatar ava-dropdown" alt="Avatar">
-                                    <strong>Sandra Kraken</strong><i class="pull-right msg-time">22 minutes ago</i><br />
-                                    <p>Duis autem vel eum iriure dolor in hendrerit ...</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="clearfix">
-                                    <img src="images/users/chat/3.jpg" class="xs-avatar ava-dropdown" alt="Avatar">
-                                    <strong>Zoey Lombardo</strong><i class="pull-right msg-time">41 minutes ago</i><br />
-                                    <p>Duis autem vel eum iriure dolor in hendrerit ...</p>
-                                </a>
-                            </li>
-                            <li class="dropdown-footer"><div class=""><a href="#" class="btn btn-sm btn-block btn-primary"><i class="fa fa-share"></i> See all messages</a></div></li>
-                        </ul>
-                    </li> -->
-                    <!-- <li class="dropdown iconify hide-phone"><a href="#" onclick="javascript:toggle_fullscreen()"><i class="icon-resize-full-2"></i></a></li> -->
+                   
                     <li class="dropdown topbar-profile">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="rounded-image topbar-profile-image"><img src="images/users/user-35.jpg"></span> Jane <strong>Doe</strong> <i class="fa fa-caret-down"></i></a>
                         <ul class="dropdown-menu">
@@ -280,8 +190,8 @@
                         <div class="profile-text">Welcome <b>Admin</b></div>
                         <div class="profile-buttons">
                           <a href="javascript:;" title="View Profile"><i class="fa fa-user"></i></a>
-                          <a href="#connect" class="open-right" title="Change Password"><i class="fa fa-world"></i></a>
-                          <a href="javascript:;" title="Sign Out"><i class="fa fa-power-off text-red-1"></i></a>
+                          <a href="#connect" class="open-right" title="Change Password"><i class="fa fa-key"></i></a>
+                          <a href="javascript:;" title="Sign Out" class="md-trigger" data-modal="logout-modal" ><i class="fa fa-power-off text-red-1" ></i></a>
                         </div>
                     </div>
                 </div>
@@ -292,35 +202,56 @@
                 <!--- Divider -->
                 <div id="sidebar-menu">
                     <ul>
-                        <li class='has_sub'><a href='javascript:void(0);'><i class='icon-home-3'></i><span>Dashboard</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
-                            <ul>
+                        <li ><a href='home.php'><i class='icon-home-3'></i><span>Dashboard</span> <span class="pull-right"><!-- <i class="fa fa-angle-down"></i> --></span></a>
+                           <!--  <ul>
                                 <li><a href='index.html' class='active'><span>Dashboard v1</span></a></li>
                                 <li><a href='index2.html'><span>Dashboard v2</span></a></li>
-                            </ul>
+                            </ul> -->
                         </li>
-                    <li class='has_sub'><a href='javascript:void(0);'><i class='icon-feather'></i><span>UI Elements</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                    <li class='has_sub'><a href='javascript:void(0);'><i class='icon-feather'></i><span>Catlogs</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
                         <ul>
-                            <li><a href='alerts.html'><span>Alerts</span></a></li>
-                            <li><a href='buttons.html'><span>Buttons</span></a></li>
-                            <li><a href='calendar.html'><span>Calendar</span></a></li>
-                            <li><a href='grid.html'><span>Grid</span></a></li>
-                            <li><a href='icons.html'><span>Icons</span></a></li>
-                            <li><a href='modals.html'><span>Modals</span></a></li>
-                            <li><a href='nested-list.html'><span>Nested List</span></a></li>
-                            <li><a href='notifications.html'><span>Notifications</span></a></li>
-                            <li><a href='portlets.html'><span>Portlets</span></a></li>
-                            <li><a href='progress-bars.html'><span>Progress Bars</span></a></li>
-                            <li><a href='tabs-accordions.html'><span>Tabs & Accordions</span></a></li>
-                            <li><a href='typography.html'><span>Typography</span></a></li>
+                            <li><a href='alerts.html'><span>Categories</span></a></li>
+                            
+                            <li><a href='calendar.html'><span>Brands</span></a></li>
+                            <li class='has_sub'><a href='javascript:void(0);'><i class='icon-feather'></i><span>Products</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                                <ul>
+                                    <li><a href='grid.html'><span>Add Products</span></a></li>
+                                    <li><a href='grid.html'><span>Manage Products</span></a></li>
+                                    <li><a href='grid.html'><span>Products Review</span></a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
-                    <li class='has_sub'><a href='javascript:void(0);'><i class='icon-pencil-3'></i><span>Forms</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                    <li class='has_sub'><a href='javascript:void(0);'><i class='icon-pencil-3'></i><span>Website</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
                         <ul>
-                            <li><a href='forms.html'><span>Form Elements</span></a></li>
-                            <li><a href='advanced-forms.html'><span>Advanced Forms</span></a></li>
-                            <li><a href='form-wizard.html'><span>Form Wizard</span></a></li>
-                            <li><a href='form-validation.html'><span>Form Validation</span></a></li>
-                            <li><a href='form-uploads.html'><span>File Uploads</span></a></li>
+                             <li class='has_sub'><a href='javascript:void(0);'><i class='icon-feather'></i><span>Banner</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                                <ul>
+                                    <li><a href='grid.html'><span>Add Banner</span></a></li>
+                                    <li><a href='grid.html'><span>Manage Banner</span></a></li>
+                                </ul>
+                            </li>
+                            <li class='has_sub'><a href='javascript:void(0);'><i class='icon-feather'></i><span>Blog</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                                <ul>
+                                    <li><a href='grid.html'><span>Add Blog</span></a></li>
+                                    <li><a href='grid.html'><span>Manage Blogs</span></a></li>
+                                </ul>
+                            </li>
+                          
+                            <li><a href='form-validation.html'><span>Fav icon</span></a></li>
+                            <li class='has_sub'><a href='javascript:void(0);'><i class='icon-feather'></i><span>FAQ</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                                <ul>
+                                    <li><a href='grid.html'><span>Add FAQ</span></a></li>
+                                    <li><a href='grid.html'><span>Manage FAQ</span></a></li>
+                                </ul>
+                            </li>
+                            <li><a href='form-wizard.html'><span>Logo</span></a></li>
+                              <li class='has_sub'><a href='javascript:void(0);'><i class='icon-feather'></i><span>News</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                                <ul>
+                                    <li><a href='grid.html'><span>Add News</span></a></li>
+                                    <li><a href='grid.html'><span>Manage News</span></a></li>
+                                </ul>
+                            </li>
+                            <
                         </ul>
                     </li>
                     <li class='has_sub'><a href='javascript:void(0);'><i class='fa fa-table'></i><span>Tables</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
@@ -535,82 +466,9 @@
 
 
 						
-            </div>
-
+           
 			<!-- ============================================================== -->
 			<!-- End content here -->
 			<!-- ============================================================== -->
             <!-- Footer Start -->
-            <footer  style="float: bottom">
-                Huban Creative &copy; 2014
-                <div class="footer-links pull-right">
-                    <!-- <a href="#">About</a><a href="#">Support</a><a href="#">Terms of Service</a><a href="#">Legal</a><a href="#">Help</a><a href="#">Contact Us</a> -->
-                </div>
-            </footer>
-            <!-- Footer End -->
-        </div>
-		<!-- End right content -->
-
-	</div>
-	<div id="contextMenu" class="dropdown clearfix">
-		    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="display:block;position:static;margin-bottom:5px;">
-		        <li><a tabindex="-1" href="javascript:;" data-priority="high"><i class="fa fa-circle-o text-red-1"></i> High Priority</a></li>
-		        <li><a tabindex="-1" href="javascript:;" data-priority="medium"><i class="fa fa-circle-o text-orange-3"></i> Medium Priority</a></li>
-		        <li><a tabindex="-1" href="javascript:;" data-priority="low"><i class="fa fa-circle-o text-yellow-1"></i> Low Priority</a></li>
-		        <li><a tabindex="-1" href="javascript:;" data-priority="none"><i class="fa fa-circle-o text-lightblue-1"></i> None</a></li>
-		    </ul>
-		</div>
-	<!-- End of page -->
-		<!-- the overlay modal element -->
-	<div class="md-overlay"></div>
-	<!-- End of eoverlay modal -->
-	<script>
-		var resizefunc = [];
-	</script>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="assets/libs/jquery/jquery-1.11.1.min.js"></script>
-	<script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
-	<script src="assets/libs/jqueryui/jquery-ui-1.10.4.custom.min.js"></script>
-	<script src="assets/libs/jquery-ui-touch/jquery.ui.touch-punch.min.js"></script>
-	<script src="assets/libs/jquery-detectmobile/detect.js"></script>
-	<script src="assets/libs/jquery-animate-numbers/jquery.animateNumbers.js"></script>
-	<script src="assets/libs/ios7-switch/ios7.switch.js"></script>
-	<script src="assets/libs/fastclick/fastclick.js"></script>
-	<script src="assets/libs/jquery-blockui/jquery.blockUI.js"></script>
-	<script src="assets/libs/bootstrap-bootbox/bootbox.min.js"></script>
-	<script src="assets/libs/jquery-slimscroll/jquery.slimscroll.js"></script>
-	<script src="assets/libs/jquery-sparkline/jquery-sparkline.js"></script>
-	<script src="assets/libs/nifty-modal/js/classie.js"></script>
-	<script src="assets/libs/nifty-modal/js/modalEffects.js"></script>
-	<script src="assets/libs/sortable/sortable.min.js"></script>
-	<script src="assets/libs/bootstrap-fileinput/bootstrap.file-input.js"></script>
-	<script src="assets/libs/bootstrap-select/bootstrap-select.min.js"></script>
-	<script src="assets/libs/bootstrap-select2/select2.min.js"></script>
-	<script src="assets/libs/magnific-popup/jquery.magnific-popup.min.js"></script> 
-	<script src="assets/libs/pace/pace.min.js"></script>
-	<script src="assets/libs/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
-	<script src="assets/libs/jquery-icheck/icheck.min.js"></script>
-
-	<!-- Demo Specific JS Libraries -->
-	<script src="assets/libs/prettify/prettify.js"></script>
-
-	<script src="assets/js/init.js"></script>
-	<!-- Page Specific JS Libraries -->
-	<script src="assets/libs/d3/d3.v3.js"></script>
-	<script src="assets/libs/rickshaw/rickshaw.min.js"></script>
-	<script src="assets/libs/raphael/raphael-min.js"></script>
-	<script src="assets/libs/morrischart/morris.min.js"></script>
-	<script src="assets/libs/jquery-knob/jquery.knob.js"></script>
-	<script src="assets/libs/jquery-jvectormap/js/jquery-jvectormap-1.2.2.min.js"></script>
-	<script src="assets/libs/jquery-jvectormap/js/jquery-jvectormap-us-aea-en.js"></script>
-	<script src="assets/libs/jquery-clock/clock.js"></script>
-	<script src="assets/libs/jquery-easypiechart/jquery.easypiechart.min.js"></script>
-	<script src="assets/libs/jquery-weather/jquery.simpleWeather-2.6.min.js"></script>
-	<script src="assets/libs/bootstrap-xeditable/js/bootstrap-editable.min.js"></script>
-	<script src="assets/libs/bootstrap-calendar/js/bic_calendar.min.js"></script>
-	<script src="assets/js/apps/calculator.js"></script>
-	<script src="assets/js/apps/todo.js"></script>
-	<script src="assets/js/apps/notes.js"></script>
-	<script src="assets/js/pages/index.js"></script>
-	</body>
-</html>
+         
