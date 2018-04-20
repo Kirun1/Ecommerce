@@ -208,47 +208,47 @@
                                 <li><a href='index2.html'><span>Dashboard v2</span></a></li>
                             </ul> -->
                         </li>
-                    <li class='has_sub'><a href='javascript:void(0);'><i class='icon-feather'></i><span>Catlogs</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                    <li class='has_sub'><a href='javascript:void(0);'><i class='fa fa-tags'></i><span>Catlogs</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
                         <ul>
-                            <li><a href='alerts.html'><span>Categories</span></a></li>
+                            <li><a href='alerts.html'><i class='fa fa-th-list'></i><span>Categories</span></a></li> fa-th-list
                             
-                            <li><a href='calendar.html'><span>Brands</span></a></li>
-                            <li class='has_sub'><a href='javascript:void(0);'><i class='icon-feather'></i><span>Products</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            <li><a href='calendar.html'><i class='icon-award-empty'></i><span>Brands</span></a></li> 
+                            <li class='has_sub'><a href='javascript:void(0);'><i class='icon-archive'></i><span>Products</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
                                 <ul>
-                                    <li><a href='grid.html'><span>Add Products</span></a></li>
-                                    <li><a href='grid.html'><span>Manage Products</span></a></li>
-                                    <li><a href='grid.html'><span>Products Review</span></a></li>
+                                    <li><a href='grid.html'><i class='icon-plus-2'></i><span>Add Products</span></a></li>
+                                    <li><a href='grid.html'><i class='icon-edit-circled'></i><span>Manage Products</span></a></li>
+                                    <li><a href='grid.html'><i class='icon-newspaper'></i><span>Products Review</span></a></li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
-                    <li class='has_sub'><a href='javascript:void(0);'><i class='icon-pencil-3'></i><span>Website</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                    <li class='has_sub'><a href='javascript:void(0);'><i class='icon-globe-2'></i><span>Website</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
                         <ul>
-                             <li class='has_sub'><a href='javascript:void(0);'><i class='icon-feather'></i><span>Banner</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                             <li class='has_sub'><a href='javascript:void(0);'><i class='icon-picture-2'></i><span>Banner</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
                                 <ul>
-                                    <li><a href='grid.html'><span>Add Banner</span></a></li>
-                                    <li><a href='grid.html'><span>Manage Banner</span></a></li>
+                                    <li><a href='grid.html'><i class='icon-plus-2'></i><span>Add Banner</span></a></li>
+                                    <li><a href='grid.html'><i class='icon-edit-circled'></i><span>Manage Banner</span></a></li>
                                 </ul>
                             </li>
                             <li class='has_sub'><a href='javascript:void(0);'><i class='icon-feather'></i><span>Blog</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
                                 <ul>
-                                    <li><a href='grid.html'><span>Add Blog</span></a></li>
-                                    <li><a href='grid.html'><span>Manage Blogs</span></a></li>
+                                    <li><a href='grid.html'><i class='icon-doc-text'></i><span>Add Blog</span></a></li>
+                                    <li><a href='grid.html'><i class='icon-docs'></i><span>Manage Blogs</span></a></li>
                                 </ul>
                             </li>
                           
-                            <li><a href='form-validation.html'><span>Fav icon</span></a></li>
-                            <li class='has_sub'><a href='javascript:void(0);'><i class='icon-feather'></i><span>FAQ</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            <li><a href='form-validation.html'><i class='icon-brush-1'></i><span>Fav icon</span></a></li>
+                            <li class='has_sub'><a href='javascript:void(0);'><i class='icon-info'></i><span>FAQ</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
                                 <ul>
-                                    <li><a href='grid.html'><span>Add FAQ</span></a></li>
-                                    <li><a href='grid.html'><span>Manage FAQ</span></a></li>
+                                    <li><a href='grid.html'><i class='icon-info-circled-1'></i><span>Add FAQ</span></a></li>
+                                    <li><a href='grid.html'><i class='icon-edit-circled'></i><span>Manage FAQ</span></a></li>
                                 </ul>
                             </li>
-                            <li><a href='form-wizard.html'><span>Logo</span></a></li>
+                            <li><a href='form-wizard.html'><i class='icon-tag-2'></i><span>Logo</span></a></li>
                               <li class='has_sub'><a href='javascript:void(0);'><i class='icon-feather'></i><span>News</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
                                 <ul>
-                                    <li><a href='grid.html'><span>Add News</span></a></li>
-                                    <li><a href='grid.html'><span>Manage News</span></a></li>
+                                    <li><a href='grid.html'><i class='icon-tag-2'></i><span>Add News</span></a></li>
+                                    <li><a href='grid.html'><i class='icon-archive'></i><span>Manage News</span></a></li>
                                 </ul>
                             </li>
                             <
