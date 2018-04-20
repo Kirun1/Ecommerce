@@ -10,33 +10,33 @@
         <meta name="author" content="Huban Creative">
 
         <!-- Base Css Files -->
-        <link href="assets/libs/jqueryui/ui-lightness/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" />
-        <link href="assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="assets/libs/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-        <link href="assets/libs/fontello/css/fontello.css" rel="stylesheet" />
-        <link href="assets/libs/animate-css/animate.min.css" rel="stylesheet" />
-        <link href="assets/libs/nifty-modal/css/component.css" rel="stylesheet" />
-        <link href="assets/libs/magnific-popup/magnific-popup.css" rel="stylesheet" /> 
-        <link href="assets/libs/ios7-switch/ios7-switch.css" rel="stylesheet" /> 
-        <link href="assets/libs/pace/pace.css" rel="stylesheet" />
-        <link href="assets/libs/sortable/sortable-theme-bootstrap.css" rel="stylesheet" />
-        <link href="assets/libs/bootstrap-datepicker/css/datepicker.css" rel="stylesheet" />
-        <link href="assets/libs/jquery-icheck/skins/all.css" rel="stylesheet" />
+        <link href="<?php echo base_url("assets/libs/jqueryui/ui-lightness/jquery-ui-1.10.4.custom.min.css")?>" rel="stylesheet" />
+        <link href="<?php echo base_url("assets/libs/bootstrap/css/bootstrap.min.css")?>" rel="stylesheet" />
+        <link href="<?php echo base_url("assets/libs/font-awesome/css/font-awesome.min.css")?>" rel="stylesheet" />
+        <link href="<?php echo base_url("assets/libs/fontello/css/fontello.css")?>" rel="stylesheet" />
+        <link href="<?php echo base_url("assets/libs/animate-css/animate.min.css")?>" rel="stylesheet" />
+        <link href="<?php echo base_url("assets/libs/nifty-modal/css/component.css")?>" rel="stylesheet" />
+        <link href="<?php echo base_url("assets/libs/magnific-popup/magnific-popup.css")?>" rel="stylesheet" /> 
+        <link href="<?php echo base_url("assets/libs/ios7-switch/ios7-switch.css")?>" rel="stylesheet" /> 
+        <link href="<?php echo base_url("assets/libs/pace/pace.css")?>" rel="stylesheet" />
+        <link href="<?php echo base_url("assets/libs/sortable/sortable-theme-bootstrap.css")?>" rel="stylesheet" />
+        <link href="<?php echo base_url("assets/libs/bootstrap-datepicker/css/datepicker.css")?>" rel="stylesheet" />
+        <link href="<?php echo base_url("assets/libs/jquery-icheck/skins/all.css")?>" rel="stylesheet" />
         <!-- Code Highlighter for Demo -->
-        <link href="assets/libs/prettify/github.css" rel="stylesheet" />
+        <link href="<?php echo base_url("assets/libs/prettify/github.css")?>" rel="stylesheet" />
         
                 <!-- Extra CSS Libraries Start -->
-                <link href="assets/libs/rickshaw/rickshaw.min.css" rel="stylesheet" type="text/css" />
-                <link href="assets/libs/morrischart/morris.css" rel="stylesheet" type="text/css" />
-                <link href="assets/libs/jquery-jvectormap/css/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
-                <link href="assets/libs/jquery-clock/clock.css" rel="stylesheet" type="text/css" />
-                <link href="assets/libs/bootstrap-calendar/css/bic_calendar.css" rel="stylesheet" type="text/css" />
-                <link href="assets/libs/sortable/sortable-theme-bootstrap.css" rel="stylesheet" type="text/css" />
-                <link href="assets/libs/jquery-weather/simpleweather.css" rel="stylesheet" type="text/css" />
-                <link href="assets/libs/bootstrap-xeditable/css/bootstrap-editable.css" rel="stylesheet" type="text/css" />
-                <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+                <link href="<?php echo base_url("assets/libs/rickshaw/rickshaw.min.css")?>" rel="stylesheet" type="text/css" />
+                <link href="<?php echo base_url("assets/libs/morrischart/morris.css")?>" rel="stylesheet" type="text/css" />
+                <link href="<?php echo base_url("assets/libs/jquery-jvectormap/css/jquery-jvectormap-1.2.2.css")?>" rel="stylesheet" type="text/css" />
+                <link href="<?php echo base_url("assets/libs/jquery-clock/clock.css")?>" rel="stylesheet" type="text/css" />
+                <link href="<?php echo base_url("assets/libs/bootstrap-calendar/css/bic_calendar.css")?>" rel="stylesheet" type="text/css" />
+                <link href="<?php echo base_url("assets/libs/sortable/sortable-theme-bootstrap.css")?>" rel="stylesheet" type="text/css" />
+                <link href="<?php echo base_url("assets/libs/jquery-weather/simpleweather.css")?>" rel="stylesheet" type="text/css" />
+                <link href="<?php echo base_url("assets/libs/bootstrap-xeditable/css/bootstrap-editable.css")?>" rel="stylesheet" type="text/css" />
+                <link href="<?php echo base_url("assets/css/style.css")?>" rel="stylesheet" type="text/css" />
                 <!-- Extra CSS Libraries End -->
-        <link href="assets/css/style-responsive.css" rel="stylesheet" />
+        <link href="<?php echo base_url("assets/css/style-responsive.css")?>" rel="stylesheet" />
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,15 +45,15 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
 
-        <link rel="shortcut icon" href="assets/img/favicon.ico">
-        <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
-        <link rel="apple-touch-icon" sizes="57x57" href="assets/img/apple-touch-icon-57x57.png" />
-        <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png" />
-        <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-touch-icon-76x76.png" />
-        <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png" />
-        <link rel="apple-touch-icon" sizes="120x120" href="assets/img/apple-touch-icon-120x120.png" />
-        <link rel="apple-touch-icon" sizes="144x144" href="assets/img/apple-touch-icon-144x144.png" />
-        <link rel="apple-touch-icon" sizes="152x152" href="assets/img/apple-touch-icon-152x152.png" />
+        <link rel="shortcut icon" href="<?php echo base_url("assets/img/favicon.ico")?>">
+        <link rel="apple-touch-icon" href="<?php echo base_url("assets/img/apple-touch-icon.png")?>" />
+        <link rel="apple-touch-icon" sizes="57x57" href="<?php echo base_url("assets/img/apple-touch-icon-57x57.png")?>" />
+        <link rel="apple-touch-icon" sizes="72x72" href="<?php echo base_url("assets/img/apple-touch-icon-72x72.png")?>" />
+        <link rel="apple-touch-icon" sizes="76x76" href="<?php echo base_url("assets/img/apple-touch-icon-76x76.png")?>" />
+        <link rel="apple-touch-icon" sizes="114x114" href="<?php echo base_url("assets/img/apple-touch-icon-114x114.png")?>" />
+        <link rel="apple-touch-icon" sizes="120x120" href="<?php echo base_url("assets/img/apple-touch-icon-120x120.png")?>" />
+        <link rel="apple-touch-icon" sizes="144x144" href="<?php echo base_url("assets/img/apple-touch-icon-144x144.png")?>" />
+        <link rel="apple-touch-icon" sizes="152x152" href="<?php echo base_url("assets/img/apple-touch-icon-152x152.png")?>" />
     </head>
     <body class="fixed-left">
         <!-- Modal Start -->
@@ -245,59 +245,17 @@
                                 </ul>
                             </li>
                             <li><a href='form-wizard.html'><i class='icon-tag-2'></i><span>Logo</span></a></li>
-                              <li class='has_sub'><a href='javascript:void(0);'><i class='icon-feather'></i><span>News</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                              <li class='has_sub'><a href='javascript:void(0);'><i class='icon-book-open-1'></i><span>News</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
                                 <ul>
-                                    <li><a href='grid.html'><i class='icon-tag-2'></i><span>Add News</span></a></li>
-                                    <li><a href='grid.html'><i class='icon-archive'></i><span>Manage News</span></a></li>
+                                    <li><a href='grid.html'><i class='icon-plus-2'></i><span>Add News</span></a></li>
+                                    <li><a href='grid.html'><i class='icon-edit-circled'></i><span>Manage News</span></a></li>
                                 </ul>
                             </li>
                             <
                         </ul>
                     </li>
-                    <li class='has_sub'><a href='javascript:void(0);'><i class='fa fa-table'></i><span>Tables</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
-                        <ul>
-                            <li><a href='tables.html'><span>Basic Tables</span></a></li>
-                            <li><a href='datatables.html'><span>Datatables</span></a></li>
-                        </ul>
-                    </li>
-                    <li class='has_sub'><a href='javascript:void(0);'><i class='fa fa-map-marker'></i><span>Maps</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
-                        <ul>
-                            <li><a href='google-maps.html'><span>Google Maps</span></a></li>
-                            <li><a href='vector-maps.html'><span>Vector Maps</span></a></li>
-                        </ul>
-                    </li>
-                    <li class='has_sub'><a href='javascript:void(0);'><i class='fa fa-envelope'></i><span>Email</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
-                        <ul>
-                            <li><a href='inbox.html'><span>Inbox</span></a></li>
-                            <li><a href='read-message.html'><span>View Email</span></a></li>
-                            <li><a href='new-message.html'><span>New Message</span></a></li>
-                        </ul>
-                    </li>
-                    <li class='has_sub'><a href='javascript:void(0);'><i class='icon-chart-line'></i><span>Charts</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
-                        <ul>
-                            <li><a href='sparkline-charts.html'><span>Sparkline Charts</span></a></li>
-                            <li><a href='morris-charts.html'><span>Morris Charts</span></a></li>
-                            <li><a href='rickshaw-charts.html'><span>Rickshaw Charts</span></a></li>
-                            <li><a href='other-charts.html'><span>Other Charts</span></a></li>
-                        </ul>
-                    </li>
-                    <li class='has_sub'><a href='javascript:void(0);'><i class='icon-megaphone'></i><span>Extras</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
-                        <ul>
-                            <li><a href='blank.html'><span>Blank Page</span></a></li>
-                            <li><a href='login.html'><span>Login</span></a></li>
-                            <li><a href='register.html'><span>Register</span></a></li>
-                            <li><a href='lockscreen.html'><span>Lock Screen</span></a></li>
-                            <li><a href='404.html'><span>404 Error</span></a></li>
-                        <li><a href='500.html'><span>500 Error</span></a></li>
-                        <li><a href='profile.html'><span>User Profile</span></a></li>
-                        <li><a href='invoice.html'><span>Invoice</span></a></li>
-                        <li><a href='gallery.html'><span>Gallery</span></a></li>
-                        <li><a href='maintenance.html'><span>Maintenance</span></a></li>
-                        
-                       
-                        <!-- <li class='has_sub'><a href='javascript:void(0);'><span>Submenu with icons</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a><ul><li><a href='javascript:void(0);'><i class='fa fa-camera'></i><span>Item with icon</span></a></li><li><a href='javascript:void(0);'><i class='entypo entypo-users'></i><span>Another Item</span></a></li></ul></li> -->
-                         </ul>
-                        </li>
+                   
+                    
                     </ul>                  
                   <div class="clearfix"></div>
                 </div>
