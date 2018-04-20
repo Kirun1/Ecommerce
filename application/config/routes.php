@@ -53,5 +53,7 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+
 $route['dashboard/(:any)'] = "dashboard/$1";
+$route['dashboard'] = 'dashboard/welcome';
 $route['(:any)'] = "frontend/$1";
